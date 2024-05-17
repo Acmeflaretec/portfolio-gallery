@@ -4,6 +4,7 @@ import axios from 'axios';
 import ImageForm from '../components/ImageForm';
 import ImageList from '../components/ImageList';
 import Pagination from '../components/Pagination';
+import Appbar from '../layout/Appbar';
 
 const url = 'http://localhost:5000' ; 
 
@@ -60,13 +61,18 @@ const Dashboard = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <Container>
+    <> 
+      <Appbar />
+      <br></br>
+      <Container>
       <Typography variant="h4" gutterBottom>Admin Dashboard</Typography>
       <ImageForm fetchImages={fetchImages} />
       <ImageList images={currentImages} deleteImage={deleteImage} editImage={editImage} />
       <Pagination totalImages={images.length} imagesPerPage={imagesPerPage} paginate={paginate} />
     </Container>
+  </>
   );
+
 };
 
 export default Dashboard;
