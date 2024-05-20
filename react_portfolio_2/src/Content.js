@@ -215,7 +215,7 @@ export const content = {
       {
         text: "Kalathil, Vaiparamba, Azhikode, P.O., Kannur 670009, Kerala, India",
         icon: BsMapFill,
-        link: "https://maps.app.goo.gl/SDG3Kxt7qDUFMkPj6",
+        link: "https://www.google.com/maps/place/artist+VARGHESE+KALATHIL/@11.9243123,75.3133681,14.24z/data=!4m6!3m5!1s0x3ba417006e043d59:0xf54532123fa56ef3!8m2!3d11.9188302!4d75.3216902!16s%2Fg%2F11vm2qbhcm?entry=tts",
       },
     ],
   },
