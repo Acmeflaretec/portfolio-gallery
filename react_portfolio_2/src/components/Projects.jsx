@@ -15,7 +15,7 @@ const Projects = () => {
   const imagesPerPage = 9;
   
 
-  const url = 'http://localhost:5000'; 
+  const url = 'backend.acmeflare.in'; 
 
   useEffect(() => {
     fetchImages();

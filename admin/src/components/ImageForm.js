@@ -3,7 +3,7 @@ import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField, S
 import axios from 'axios';
 
 
-const url = 'http://localhost:5000' ; 
+const url = 'backend.acmeflare.in' ; 
 
 const ImageForm = ({ fetchImages }) => {
   const [open, setOpen] = useState(false);
