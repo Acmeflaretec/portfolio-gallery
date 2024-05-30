@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
 
-const url = 'https://backend.acmeflare.in/' ; 
+const url = 'https://backend.acmeflare.in' ; 
 const ImageList = ({ images, deleteImage, editImage }) => {
   return (
     <Grid container spacing={3} sx={{ mt: 3 }}>
