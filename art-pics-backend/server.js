@@ -6,7 +6,7 @@ const imageRoutes = require('./routes/imageRoutes');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 
 const allowedOrigins = [process.env.FRONTEND_URL, process.env.ADMIN_URL];
