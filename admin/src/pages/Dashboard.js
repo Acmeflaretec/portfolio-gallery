@@ -6,7 +6,7 @@ import ImageList from '../components/ImageList';
 import Pagination from '../components/Pagination';
 import Appbar from '../layout/Appbar';
 
-const url = 'backend.acmeflare.in' ; 
+const url = 'https://backend.acmeflare.in/' ; 
 
 const Dashboard = () => {
   const [images, setImages] = useState([]);
