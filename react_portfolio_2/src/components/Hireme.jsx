@@ -30,7 +30,7 @@ const Hireme = () => {
               <li>KGCE Certificate in Painting</li>
               <li>Bachelor of Fine Arts (BFA) in Painting</li>
 
-              <li>Master of Fine Arts (MFA) in Painting from Karnataka State Open University</li>
+              <li>Complete Master of Fine Arts (MFA) in Painting from Karnataka State Open University</li>
             </ul>
             <h6>Current Occupation</h6>
             <p className="leading-7">Presently, I serve as a Teacher Educator at the Government Institute of Teacher Education (Men), Kannur, Kerala.</p>

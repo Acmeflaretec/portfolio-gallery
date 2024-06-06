@@ -76,10 +76,10 @@ const Projects = () => {
 
           <ul className="uk-navbar-nav">
             <li>
-              <button className={activeCategory === 1 ? "active1" : ""} onClick={() => handleCategoryChange(1)}>HORNBILL</button>
+              <button className={activeCategory === 1 ? "active1" : ""} onClick={() => handleCategoryChange(1)}>GALLERY A</button>
             </li>
             <li>
-              <button className={activeCategory === 2 ? "active1" : ""} onClick={() => handleCategoryChange(2)}>NATURE SERIES</button>
+              <button className={activeCategory === 2 ? "active1" : ""} onClick={() => handleCategoryChange(2)}>GALLERY B</button>
             </li>
           </ul>
         </div>

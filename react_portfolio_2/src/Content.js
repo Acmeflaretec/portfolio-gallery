@@ -56,12 +56,12 @@ export const content = {
     hero_content: [
       {
         count: "30+",
-        text: "Years of Experinse in droyind art",
+        text: "Years of Experinse in Art",
       },
-      {
-        count: "4+",
-        text: "Awards received",
-      },
+      // {
+      //   count: "4+",
+      //   text: "Awards received",
+      // },
     ],
   },
   skills: {
@@ -80,30 +80,31 @@ export const content = {
 
       },
       {
-        name: "Group Exhibitions",
-        details: ['Serendipity at Gallery Veda, Chennai (2020)',
-          'Nature group show at Gallery Veda, Chennai (2020)',
-          'The Sentence group show at Karnataka Chitrakala Parishath Art Gallery, Bangalore (2018)',
-          'Group Show at Onyx Corridor, Ernakulam, Kochi (2017)',
-          'International Art Exhibition by World Wide Art Movement at Katmandu, Nepal (2017)']
-        // para: "Lorem ipsum text  dummy",
-        // logo: nodejs,
+        name: "Exhibitions",
+        parag: "Participated in many camps and exhibitions in India and abroad."
+        // ['Serendipity at Gallery Veda, Chennai (2020)',
+        //   'Nature group show at Gallery Veda, Chennai (2020)',
+        //   'The Sentence group show at Karnataka Chitrakala Parishath Art Gallery, Bangalore (2018)',
+        //   'Group Show at Onyx Corridor, Ernakulam, Kochi (2017)',
+        //   'International Art Exhibition by World Wide Art Movement at Katmandu, Nepal (2017)']
+        
       },
-      {
-        name: "State Exhibitions",
-        parag: "I have participated in several state exhibitions organized by the Kerala Lalithakala Academy, Ernakulum, across different years.",
-        // logo: ps,
-      },
-      {
-        name: "Camps",
-        parag: "I have actively participated in numerous camps organized by various institutions, exploring themes ranging from portraiture to landscape and conservation of art.",
-        // logo: reactjs,
-      },
+      // {
+      //   name: "State Exhibitions",
+      //   parag: "I have participated in several state exhibitions organized by the Kerala Lalithakala Academy, Ernakulum, across different years.",
+        
+      // },
+      // {
+      //   name: "Camps",
+      //   parag: "I have actively participated in numerous camps organized by various institutions, exploring themes ranging from portraiture to landscape and conservation of art.",
+       
+      // },
       {
         name: "Awards",
         details: ['Soorya Kanthi Puraskar (2018)',
           'Art Maistreo Award (2019)',
-          'Kerala Lalithakala Academy Grand for Solo Exhibition (2018, 2013)']
+          'Kerala Lalithakala Academy Grand for Solo Exhibition (2018, 2013)',
+        'Ashanthan puraskaram (2022)']
         // para: "Lorem ipsum text  dummy",
         // logo: sketch,
       },
