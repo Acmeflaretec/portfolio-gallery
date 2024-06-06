@@ -71,7 +71,8 @@ export const content = {
       {
         name: "Solo Exhibitions",
         // para: "Lorem ipsum text  dummy",
-        details: ['iLLUMINATiONS - THE PERPETUAL FLOW OF TIME at Lalithakala Academy Gallery, Kozhikode, Kerala, India (2019)',
+        details: ['eye and i reflections and reactions kadirur gramapanchayath art gallery ,Thalasseri, Kannur (2022)',
+          'iLLUMINATiONS - THE PERPETUAL FLOW OF TIME at Lalithakala Academy Gallery, Kozhikode, Kerala, India (2019)',
           'Selfie Series at Kannur, Kerala, India (2016)',
           'Solo Exhibition at the inaugural show of White Sanctorum Art Gallery, Bangalore (2015)',
           'Weeping Visuals at Lalithakala Academy Gallery, Kozhikode, Kerala, India (2013)',
