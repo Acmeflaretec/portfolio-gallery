@@ -83,7 +83,7 @@ const Projects = () => {
             </li>
           </ul>
         </div>
-        <div className="main-content">
+        {/* <div className="main-content">
           <ul className="img-gallery-container">
             {currentImages?.length>0 ?(currentImages.map((image, index) => (
               <li key={index} onClick={() => openModal(`${url}/${image.imageUrl}`, image.name, image.size, image.year)}>
@@ -100,7 +100,30 @@ const Projects = () => {
               </li>
             ))) : <p style={{color:'red'}}>images not uploaded</p>}
           </ul>
-        </div>
+        </div> */}
+        <div className="main-content">
+  <ul className="img-gallery-container">
+    {currentImages?.length > 0 ? (
+      currentImages.map((image, index) => (
+        <li key={index} onClick={() => openModal(`${url}/${image.imageUrl}`, image.name, image.size, image.year)}>
+          <img src={`${url}/${image.imageUrl}`} alt="" className={currentImages.length > 2 ? "img-gal" : "img-gal2"} />
+          <div className="float-gallery-content">
+            <div className="content">
+              <span className="highlight uk-block">{image.name}</span>
+              <div className='sortDetails'>
+                <span>{image.size}</span>
+                <span>{image.year}</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))
+    ) : (
+      <p style={{ color: 'red' }}>images not uploaded</p>
+    )}
+  </ul>
+</div>
+
 
         {isOpen && (
           <div className="modal" onClick={closeModal}>
