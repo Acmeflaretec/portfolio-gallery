@@ -42,7 +42,7 @@ router.get('/images', async (req, res) => {
     if (imageType) {
       console.log("sam",Image);
 
-      let filteredImages = await Image.find();
+      let filteredImages = await Image.find().sort({ createdAt: -1 });
       const filers = filteredImages.filter(img=>img.imageType === imgType)
       return res.json(filers);
     } else {
